@@ -1,3 +1,29 @@
+# dot-files
+
+Configuration files of my Linux desktop: zsh, X resources and Xfce keyboard shortcuts.
+
+A small project of my own from my Computer Science studies at UWM (2020–2024). The commit history is unchanged. This README was added in November 2026.
+
+Years of work: 2022 (first commit on 21 March 2022, last commit on 2 April 2022).
+
+## Contents
+
+- `.zshrc`: zsh settings.
+- `.Xresources`, `.Xdefaults`: X resources.
+- `xfce4/xfce4-keyboard-shortcuts.xml`: the Xfce shortcuts listed in the original note below.
+
+## Running
+
+The files are settings, not a program. This command checks the zsh file without running it:
+
+```
+zsh -n .zshrc
+```
+
+Result on 26 November 2026 (zsh on Artix Linux): exit code 0.
+
+## Original note
+
 My .files aka my conf. files.
 
 # xfce shortcuts:
@@ -44,3 +70,7 @@ My .files aka my conf. files.
 | Workspace 6 | super + 6 |
 | Add workspace | super + return (enter) |
 | Delete active workspace | super + delete |
+
+## Po polsku
+
+Repozytorium zawiera moje pliki konfiguracyjne pulpitu w Linuksie: zsh, zasoby X i skróty klawiszowe Xfce. Pliki przygotowałem w 2022 roku.
